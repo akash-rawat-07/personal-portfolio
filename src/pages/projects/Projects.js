@@ -44,7 +44,7 @@ function Projects(props) {
           </div>
         </Fade>
       </div>
-      <div className="repo-cards-div-main">
+      <div className="repo-cards-div-main" style={{height: "auto", display: "flex", flexDirection: "column", gap: "30px"}}>
         {projects.data.map((repo) => {
           return <ProjectCard repo={repo} theme={theme} />;
         })}
@@ -52,13 +52,13 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
+      {/* <a
         {...styles}
         className="general-btn"
         href="https://github.com/akash-rawat-07"
       >
         More Projects (Github)
-      </a>
+      </a> */}
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

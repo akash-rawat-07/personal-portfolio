@@ -441,7 +441,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects utilize a wide range of the latest technology tools. My expertise includes developing ReactJS frontend applications, Django backend systems, Python scripts, and NodeJS projects. Additionally, I have experience deploying applications on Google Cloud Platform (GCP) and Amazon Web Services (AWS).",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -469,7 +469,18 @@ const projects = {
       name: "CMT BDE",
       url: "https://cmt-bde-508403708870.europe-west9.run.app/",
       description:
-        "This platform serves as a comprehensive hub for students, enabling thousands of users to explore and review a wide array of courses offered across diverse disciplines. It empowers users to share detailed feedback on the quality and relevance of course content, the effectiveness of teaching methodologies, and the overall learning experience. Users can provide insights into the teaching styles of individual faculty members, helping future learners make informed decisions. The platform fosters a community-driven approach to education by encouraging constructive discussions, highlighting strengths, and identifying areas for improvement in both course design and delivery. By offering valuable feedback and ratings, the platform contributes to continuous improvement in educational offerings, enhances transparency, and ensures learners can select courses that best align with their goals and preferences. Whether users are evaluating academic courses, professional certifications, or skill-development programs, this platform is designed to support informed choices and elevate learning experiences for everyone.",
+        `Worked for ESSEC Business School, France
+
+        Developed a comprehensive platform for students to explore, review, and share feedback on a wide range of courses across various disciplines. The platform enables thousands of users to evaluate course content, teaching methodologies, and overall learning experiences, fostering informed academic choices.
+
+        Key Contributions:
+
+            1. Designed and implemented a user-friendly interface for course reviews and ratings.
+            2. Enhanced the efficiency and accuracy of course review submissions.
+            3. Improved the platform’s user experience for seamless navigation and interaction.
+            4. Optimized platform functionality for better performance and scalability.
+            5. Deployed both the frontend and backend on Google Cloud for reliability and scalability.
+        `,
       languages: [
         {
           name: "HTML5",
@@ -507,77 +518,50 @@ const projects = {
         },
       ],
     },
-    // {
-    //   id: "1",
-    //   name: "YOG4LIFE SOCIAL APP",
-    //   url: "https://github.com/kevalvavaliya/Yog4Life",
-    //   description:
-    //     "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
-    //   languages: [
-    //     {
-    //       name: "Flutter",
-    //       iconifyClass: "logos-flutter",
-    //     },
-    //     {
-    //       name: "NodeJs",
-    //       iconifyClass: "logos-nodejs",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "https://github.com/kevalvavaliya/Yog4Life",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devfolio",
-    //       url: "https://devfolio.co/projects/yoglife-b20d",
-    //       iconifyClass: "fluent:window-dev-edit-20-filled",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "2",
-    //   name: "Adoptisity",
-    //   url: "https://github.com/kevalvavaliya/Adoptisity",
-    //   description:
-    //     "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
-    //   languages: [
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "logos-html-5",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "logos-css-3",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "Wix",
-    //       iconifyClass: "bxl:wix",
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       name: "Github",
-    //       url: "https://github.com/harikanani/Adoptisity",
-    //       iconifyClass: "ri:github-fill",
-    //     },
-    //     {
-    //       name: "Devpost",
-    //       url: "https://devpost.com/software/adoptisity",
-    //       iconifyClass: "fluent:window-dev-edit-20-filled",
-    //     },
-    //     {
-    //       name: "Live Demo",
-    //       url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-    //       iconifyClass: "mdi:web",
-    //     },
-    //   ],
-    // },
+    {
+      id: "1",
+      name: "ABC Event Management Platform",
+      url: "https://itsabc.xyz/",
+      description:
+        `I worked with a team to develop an event management website, enabling users to create, manage, and track events seamlessly. \nWorked on frontend development, ensuring a responsive UI, smooth user experience, and efficient event handling. Implemented key features such as event scheduling, user registration, and real-time updates.
+        `,
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "logos-html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos-css-3",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        // {
+        //   name: "Augmented Reality",
+        //   iconifyClass: "bi:badge-ar",
+        // },
+      ],
+      links: [
+        // {
+        //   name: "Github",
+        //   url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+        //   iconifyClass: "ri:github-fill",
+        // },
+        // {
+        //   name: "Devpost",
+        //   url: "https://devpost.com/software/keep-calm-and-carry-on",
+        //   iconifyClass: "fluent:window-dev-edit-20-filled",
+        // },
+        {
+          name: "Live Demo",
+          url:
+            "https://itsabc.xyz/",
+          iconifyClass: "mdi:web",
+        },
+      ],
+    },
   ],
 };
 

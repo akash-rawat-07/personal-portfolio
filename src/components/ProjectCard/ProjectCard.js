@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
-  console.log(repo);
+  // console.log(repo);
   // function openRepoinNewTab(url) {
   //   var win = window.open(url, "_blank");
   //   win.focus();
@@ -33,14 +33,14 @@ export default function ProjectCard({ repo, theme }) {
           {...styles}
           key={repo.id}
           // onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          style={{ backgroundColor: theme.projectCard}}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text, overflow: "auto" }}>
+          <p className="repo-description" style={{ color: theme.text, display: "block", whiteSpace: "pre-line" }}>
             {repo.description}
           </p>
           <div className="flexDiv">
